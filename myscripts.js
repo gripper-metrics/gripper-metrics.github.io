@@ -3,7 +3,7 @@ function show(shown, hidden) {
   document.getElementById(hidden).style.display='none';
   return false;
 }
-   
+    
 function metricstime() {
   alert('hola')
   var ObSi = document.getElementById('OS');
