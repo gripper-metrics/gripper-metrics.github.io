@@ -5,6 +5,7 @@ function show(shown, hidden) {
 }
  
 function metricstime() {
+  alert('hola')
   var OS = document.getElementById('OS');
   var OW = document.getElementById('OW');
   var OH = document.getElementById('OH');
@@ -12,6 +13,6 @@ function metricstime() {
   var RA = document.getElementById('RA');
   var RP = document.getElementById('RP');
   var Task = document.getElementById('Task');
-  alert(OS OW OH OM RA RP Task);
+  alert(Task);
 }
   
