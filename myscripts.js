@@ -4,7 +4,6 @@ function show(shown, hidden) {
   return false;
 }
 
-
 function metricstime() {
   var OS = document.getElementById(OS);
   var OW = document.getElementById(OW);
