@@ -25,6 +25,17 @@ h3 {
 	font-size: 5vh;
 	text-align:center;
 }
+	
+.selections {
+    border-radius: 5px;
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 2%;
+	font-size: large;
+	font-size: 3.5vh;
+	font-family: verdana;
+}
+	
 </style>
   
 <body>
@@ -35,7 +46,7 @@ h3 {
   
   <h3>Size</h3>
   
-  <select multiple>
+  <select multiple class="selections">
     <option value="OSL">Little</option>
     <option value="OSM">Medium</option>
     <option value="OSB">Big</option>
@@ -43,7 +54,7 @@ h3 {
   
   <h3>Weight</h3>
   
-  <select multiple>
+  <select multiple class="selections">
     <option value="OWL">Light</option>
     <option value="OWM">Medium</option>
     <option value="OWH">Heavy</option>
@@ -51,14 +62,14 @@ h3 {
   
   <h3>Material</h3>
   
-  <select multiple>
+  <select multiple class="selections">
     <option value="OMR">Rigid</option>
     <option value="OMF">Flexible</option>
   </select>
   
   <h3>Shape</h3>
   
-  <select multiple>
+  <select multiple class="selections">
     <option value="OHR">Regular</option>
     <option value="OHI">Irregular/option>
   </select>
@@ -67,7 +78,7 @@ h3 {
   
   <h3>Accuracy</h3>
   
-  <select multiple>
+  <select multiple class="selections">
     <option value="RAA">Accurate</option>
     <option value="RAM">Medium</option>
     <option value="RAN">Non-accurate</option>
@@ -75,7 +86,7 @@ h3 {
   
   <h3>Payload</h3>
   
-  <select multiple>
+  <select multiple class="selections">
     <option value="RP0">0-2kg</option>
     <option value="RP2">2-5kg</option>
     <option value="RP5">5-10kg</option>
