@@ -13,6 +13,6 @@ function metricstime() {
   var RoAc = document.getElementById('RA');
   var RoPl = document.getElementById('RP');
   var Task = document.getElementById('Task');
-  alert(Task);
+  alert(ObSi ObWe ObSh ObMa RoAc RoPl Task);
 }
   
