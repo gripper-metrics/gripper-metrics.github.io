@@ -6,12 +6,12 @@ function show(shown, hidden) {
   
 function metricstime() {
   alert('hola')
-  var OS = document.getElementById('OS');
-  var OW = document.getElementById('OW');
-  var OH = document.getElementById('OH');
-  var OM = document.getElementById('OM');
-  var RA = document.getElementById('RA');
-  var RP = document.getElementById('RP');
+  var ObSi = document.getElementById('OS');
+  var ObWe = document.getElementById('OW');
+  var ObSh = document.getElementById('OH');
+  var ObMa = document.getElementById('OM');
+  var RoAc = document.getElementById('RA');
+  var RoPl = document.getElementById('RP');
   var Task = document.getElementById('Task');
   alert(Task);
 }
