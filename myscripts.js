@@ -148,7 +148,16 @@ function metricstime() {
   if (RoAc.value == 'RAA') {
     TH = TH + 2;
     TV = TV + 3;
-  } else if ()
+  } else if (RoAc.value == 'RAM') {
+    TH = TH + 1;
+    TV = TV + 2;
+  } else if (RoAc.value == 'RAN') {
+    TH = TH + 2;
+  } else {
+    alert ('Error Robot Accuracy')
+  }
+  
+  
   
   alert (ND2);
   alert (ND3);
