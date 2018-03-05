@@ -4,7 +4,6 @@ function show(shown, hidden) {
   return false;
 }  
 
-
 function metricstime() {
   
   var ND2 = 0;
