@@ -92,7 +92,7 @@ function metricstime() {
     DSA = DSA + 1;
     DA = DA + 2;
     DT = DT + 2;
-  } else if (ObSh.value = 'OHI') {
+  } else if (ObSh.value = 'OHB') {
     ND2 = ND2 + 3;
     ND3 = ND3 + 3;
     ND4 = ND4 + 2;
