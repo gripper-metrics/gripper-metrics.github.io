@@ -124,6 +124,31 @@ function metricstime() {
     alert ('Error Object Shape')
   }
   
+  if (ObMa.value == 'OMR') {
+    ND2 = ND2 + 1;
+    TH = TH + 3;
+    DM = DM + 3;
+    DSA = DSA + 2;
+  } else if (ObMa.value == 'OMF') {
+    TV = TV + 3;
+    DA = DA + 2;
+    DT = DT + 2;
+  } else if (ObMa.value == 'OMB') {
+    ND2 = ND2 + 1;
+    TH = TH + 3;
+    TV = TV + 3;
+    DM = DM + 3;
+    DSA = DSA + 2;
+    DA = DA + 2;
+    DT = DT + 2;
+  } else {
+    alert ('Error Object Material')
+  }
+  
+  if (RoAc.value == 'RAA') {
+    TH = TH + 2;
+    TV = TV + 3;
+  } else if ()
   
   alert (ND2);
   alert (ND3);
