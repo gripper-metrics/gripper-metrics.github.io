@@ -3,8 +3,22 @@ function show(shown, hidden) {
   document.getElementById(hidden).style.display='none';
   return false;
 }  
-      
+
+
 function metricstime() {
+  
+  var ND2 = 0;
+  var ND3 = 0;
+  var ND4 = 0;
+  var AM = 0;
+  var AP = 0;
+  var TH = 0;
+  var TV = 0;
+  var DM = 0;
+  var DSA = 0;
+  var DA = 0;
+  var DT = 0;
+  
   alert('hola')
   var ObSi = document.getElementById('OS');
   var ObWe = document.getElementById('OW');
@@ -21,4 +35,73 @@ function metricstime() {
   alert(RoAc.value);
   alert(RoPl.value);
   alert(Task.value);
+  
+  if (ObSi.value == 'OSL') {
+    ND2 = ND2 + 3;
+    TH = TH + 2;
+    DM = DM + 3;
+    DSA = DSA + 2;
+  } else if (ObSi.value == 'OSM') {
+    ND3 = ND3 + 2;
+    TV = TV + 2;
+    DSA = DSA + 3;
+    DA = DA + 2;
+    DT = DT + 2;
+  } else if (ObSi.value == 'OSB') {
+    ND4 = ND4 + 3;
+    TV = TV + 2;
+    DA = DA + 2;
+    DT = DT + 2;
+  } else if (ObSi.value == 'OSLM') {
+    ND2 = ND2 + 3;
+    ND3 = ND3 + 2;
+    TH = TH + 2;
+    TV = TV + 2;
+    DM = DM + 3;
+    DSA = DSA + 3;
+    DA = DA + 2;
+    DT = DT + 2;
+  } else if (ObSi.value == 'OSMB') {
+    ND3 = ND3 + 2;
+    ND4 = ND4 + 3;
+    TV = TV + 2;
+    DSA = DSA + 3;
+    DA = DA + 2;
+    DT = DT + 2; 
+  } else if (ObSi.value == 'OSA') {
+    ND2 = ND2 + 3;
+    ND3 = ND3 + 2;
+    ND4 = ND4 + 3;
+    TH = TH + 2;
+    TV = TV + 2;
+    DM = DM + 3;
+    DSA = DSA + 3;
+    DA = DA + 2;
+    DT = DT + 2;
+  } else {
+    alert ('Error Object Size')
+  }
+  
+  if (ObSh.value = 'OHR') {
+    ND2 = ND2 + 3;
+    ND4 = ND4 + 2;
+    DM = DM + 3;
+    DSA = DSA + 3;
+  } else if (ObSh.value = 'OHI') {
+    ND3 = ND3 + 3;
+    ND4 = ND4 + 2;
+    DSA = DSA + 1;
+    DA = DA + 2;
+    DT = DT + 2;
+  } else if (ObSh.value = 'OHI') {
+    ND2 = ND2 + 3;
+    ND3 = ND3 + 3;
+    ND4 = ND4 + 2;
+    DM = DM + 3;
+    DSA = DSA + 1;
+    DA = DA + 2;
+    DT = DT + 2;
+  } else {
+    alert ('Error Object Shape')
+  }
 }
