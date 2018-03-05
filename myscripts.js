@@ -81,6 +81,26 @@ function metricstime() {
     alert ('Error Object Size')
   }
   
+  if (ObWe.value == 'OWL') {
+    AP = AP + 2;
+  } else if (ObWe.value == 'OWM') {
+    AM = AM + 1;
+    AP = AP + 2;
+  } else if (ObWe.value == 'OWH') {
+    AM = AM + 2;
+  } else if (ObWe.value == 'OWLM') {
+    AM = AM + 1;
+    AP = AP + 2;
+  } else if (ObWe.value == 'OWMH') {
+    AM = AM + 2;
+    AP = AP + 2;
+  } else if (ObWe.value == 'OWA') {
+    AM = AM + 2;
+    AP = AP + 2;
+  } else {
+    alert ('Error Object Weight')
+  }
+    
   if (ObSh.value = 'OHR') {
     ND2 = ND2 + 3;
     ND4 = ND4 + 2;
@@ -103,6 +123,7 @@ function metricstime() {
   } else {
     alert ('Error Object Shape')
   }
+  
   
   alert (ND2);
   alert (ND3);
