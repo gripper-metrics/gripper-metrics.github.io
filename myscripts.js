@@ -104,4 +104,16 @@ function metricstime() {
   } else {
     alert ('Error Object Shape')
   }
+  
+  alert (ND2);
+  alert (ND3);
+  alert (ND4);
+  alert (AM);
+  alert (AP);
+  alert (TH);
+  alert (TV);
+  alert (DM);
+  alert (DSA);
+  alert (DA);
+  alert (DT);  
 }
