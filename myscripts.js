@@ -14,6 +14,12 @@ function metricstime() {
   var RoPl = document.getElementById('RP');
   var Task = document.getElementById('Task');
     
-  //alert(ObSi.value ObWe.value ObSh.value ObMa.value RoAc.value RoPl.value Task.value);
+  alert(ObSi.value);
+  alert(ObWe.value);
+  alert(ObSh.value);
+  alert(ObMa.value);
+  alert(RoAc.value);
+  alert(RoPl.value);
+  alert(Task.value);
 }
  
