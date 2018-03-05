@@ -22,4 +22,3 @@ function metricstime() {
   alert(RoPl.value);
   alert(Task.value);
 }
- 
