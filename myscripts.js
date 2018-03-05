@@ -85,7 +85,7 @@ function metricstime() {
     ND2 = ND2 + 3;
     ND4 = ND4 + 2;
     DM = DM + 3;
-    DSA = DSA + 3;
+    DSA = DSA + 2;
   } else if (ObSh.value = 'OHI') {
     ND3 = ND3 + 3;
     ND4 = ND4 + 2;
@@ -97,7 +97,7 @@ function metricstime() {
     ND3 = ND3 + 3;
     ND4 = ND4 + 2;
     DM = DM + 3;
-    DSA = DSA + 1;
+    DSA = DSA + 2;
     DA = DA + 2;
     DT = DT + 2;
   } else {
